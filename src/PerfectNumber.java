@@ -11,7 +11,7 @@ public class PerfectNumber {
                 sum += i;
             }
         }
-        
+
         if(number == sum){
             System.out.println(number + "Mükemmel sayıdır.");
         }
