@@ -10,7 +10,10 @@ public class Average {
         fizik = input.nextInt();
         System.out.println("Geometri notunuz: ");
         geo = input.nextInt();
-        float avg = (math+fizik+geo)/3;
-        System.out.println(avg);
+        double avg = (math+fizik+geo)/3;
+        System.out.println("Average:" + avg);
+
+
+        System.out.println((avg > 60)? "geçti" : "kaldı");
     }
 }

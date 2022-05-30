@@ -16,18 +16,19 @@ public class Password {
         }
         else if(!userPassword.equals(password)){
             System.out.println("Şifre yanlış");
-            System.out.println("Şifrenizi değiştirmek ister misiniz?\n 1-Evet\n2-Haır");
+            System.out.println("Şifrenizi değiştirmek ister misiniz?\n 1-Evet\n2-Hayır");
             choice = input.nextInt();
             if(choice == 1){
                 while (check){
                     System.out.println("Yeni şifre: ");
                     newPassword = input.next();
                     if(newPassword.equals(password)){
-                        System.out.println("Şifreler aynı");
+                        System.out.println("Şifreler aynı başka şifre giriniz");
+                        newPassword = input.nextLine();
                     }
                     else {
                         System.out.println("Şifreniz değiştirildi");
-                        newPassword = newPassword;
+                        System.out.println("Yeni şifreniz: " + newPassword);
                         check = false;
                     }
                 }

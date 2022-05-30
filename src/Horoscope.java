@@ -33,7 +33,7 @@ public class Horoscope {
                 }
                 break;
             case 3:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 21)
                         System.out.println("Balık");
                     else
@@ -57,7 +57,7 @@ public class Horoscope {
 
                 break;
             case 5:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 22)
                         System.out.println("Boğa");
                     else
@@ -81,7 +81,7 @@ public class Horoscope {
 
                 break;
             case 7:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 23)
                         System.out.println("Yengeç");
                     else
@@ -93,7 +93,7 @@ public class Horoscope {
 
                 break;
             case 8:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 23)
                         System.out.println("Aslan");
                     else
@@ -117,7 +117,7 @@ public class Horoscope {
 
                 break;
             case 10:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 23)
                         System.out.println("Terazi");
                     else
@@ -141,7 +141,7 @@ public class Horoscope {
 
                 break;
             case 12:
-                if(day >= 1 && day <= 29){
+                if(day >= 1 && day <= 31){
                     if (day < 22)
                         System.out.println("Yay");
                     else
