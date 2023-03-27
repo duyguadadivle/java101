@@ -107,7 +107,28 @@ public class AdvancedCalculator {
         System.out.println("Sonuç: " + result);
     }
 
+    static void mod(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Modunu girmek istediğiniz sayıyı giriniz: ");
+        int number = scanner.nextInt();
+        System.out.println("Modu giriniz:");
+        int mod = scanner.nextInt();
+        int result = number % mod;
+        System.out.println("Mod: " + result);
+
+    }
     static void rectangleAreaandPerimeter(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dikdörtgenin uzun kenarı: ");
+        int n1 = scanner.nextInt();
+        System.out.println("Dikdörtgenin kısa kenarı: ");
+        int n2 = scanner.nextInt();
+
+        int rectangleArea = n1 * n2;
+        int rectanglePerimeter = 2 * (n1 + n2);
+
+        System.out.println("Alan: " + rectangleArea);
+        System.out.println("Çevre: " + rectanglePerimeter);
 
     }
 
@@ -124,8 +145,7 @@ public class AdvancedCalculator {
              + "6-Faktöriyel\n"
              + "7-Mod\n"
              + "8-Dikdörtgen Alan ve Çevre\n"
-             + "9-Çıkış\n"
-             + "10-Dikdörtgenin alanı ve çevresi";
+             + "0-Çıkış\n";
 
      do {
          System.out.println(menu);
@@ -138,7 +158,6 @@ public class AdvancedCalculator {
              case 2:
                  minus();
                  break;
-
              case 3:
                  times();
                  break;
@@ -152,6 +171,9 @@ public class AdvancedCalculator {
                  factorial();
                  break;
              case 7:
+                 mod();
+                 break;
+             case 8:
                  rectangleAreaandPerimeter();
                  break;
              //case 0:
