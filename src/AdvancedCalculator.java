@@ -176,8 +176,9 @@ public class AdvancedCalculator {
              case 8:
                  rectangleAreaandPerimeter();
                  break;
-             //case 0:
-             //    break;
+             case 0:
+                 System.out.println("Çıkış yaptınız");
+                 break;
              default:
                  System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz.");
 
