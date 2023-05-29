@@ -60,7 +60,7 @@ public class Employee {
         System.out.println("Work hours : " + this.workHours);
         System.out.println("The year of starting work: " + this.hireYear);
         System.out.println("Tax: " + this.tax());
-        System.out.println("Salary incerease: " + this.raiseSalary());
+        System.out.println("Salary increase: " + this.raiseSalary());
         System.out.println("Salary with taxes and bonus: " + (salary + bonus() - tax()));
         System.out.println("Total salary: " + (salary + raiseSalary()));
 
