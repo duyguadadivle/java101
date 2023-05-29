@@ -36,8 +36,8 @@ public class Ring {
 
     public void printScore(){
         System.out.println("---------------");
-        System.out.println(f1.name + " Kalan can \t:" + f1.health);
-        System.out.println(f2.name + " Kalan can \t:" + f2.health);
+        System.out.println(f1.name + " Kalan can \t: " + f1.health);
+        System.out.println(f2.name + " Kalan can \t: " + f2.health);
     }
 
     public void run(){
