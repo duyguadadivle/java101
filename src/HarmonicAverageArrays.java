@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class HarmonicAverageArrays {
     public static void main(String[] args) {
-        
+
         double[] numberList = {2,4,6,8};
         double sum = 0;
 
